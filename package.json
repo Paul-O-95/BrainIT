@@ -1,0 +1,26 @@
+{
+  "name": "quizapphiit",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "A quiz web application that allows tutors to test their students ability with weekly questions and gradings.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "quiz",
+    "app",
+    "quizapp",
+    "quiz-app",
+    "hiit",
+    "hiit-quiz-app."
+  ],
+  "author": "HiitBackendClass2019",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "mongoose": "^5.8.10",
+    "multer": "^1.4.2"
+  }
+}
