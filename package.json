@@ -1,6 +1,5 @@
 {
   "name": "quizapphiit",
-  "type": "module",
   "version": "1.0.0",
   "description": "A quiz web application that allows tutors to test their students ability with weekly questions and gradings.",
   "main": "index.js",
@@ -18,9 +17,21 @@
   "author": "HiitBackendClass2019",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "express-handlebars": "^3.1.0",
     "mongoose": "^5.8.10",
     "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-node": "^4.0.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "1.19.1"
   }
 }
