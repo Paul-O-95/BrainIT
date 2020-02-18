@@ -1,9 +1,12 @@
 const express = require('express');
 const exphbs = require('express-handlebars');
 const path = require('path');
-const Routes = require('./routes.js');
+const bodyParser = require('body-parser');
+const Routes = require('./routes/tutor.routes.js');
 
 const controllers = app => {
+  app.use(bodyParser.urlencoded({ extended: false }));
+  app.use(bodyParser.json());
   app.use(Routes);
   app.use('/public/', express.static(path.resolve(__dirname, '../public')));
   app.engine(
