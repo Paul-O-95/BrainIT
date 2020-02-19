@@ -9,7 +9,7 @@ const auth = require('../auth.middleware');
 const router = express.Router();
 
 // Get routes
-router.get('/', auth, login.signin);
+router.get('/', login.signin);
 router.get('/logged', isLogged, index.home);
 router.get('/profile/:id', isLogged, profile.retrieve);
 
